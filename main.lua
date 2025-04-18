@@ -44,7 +44,7 @@ function love.keypressed(key)
         stagemanager:setStage(0)
     elseif key == "return" and gameState=="start" then
         gameState = "play"
-        stagemanager:setStage(1)
+        stagemanager:setStage(2)
 
     else
         player:keypressed(key) 
